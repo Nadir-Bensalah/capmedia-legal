@@ -1,0 +1,54 @@
+/* Feuille commune aux pages legales. Volontairement minuscule : ces pages
+   doivent s'ouvrir vite, sur un telephone, souvent en 3G, et rester lisibles
+   dans dix ans sans dependre d'une bibliotheque. */
+:root {
+  --bg: #ffffff;
+  --surface: #f4f5f7;
+  --text: #12151a;
+  --muted: #5b6270;
+  --accent: #0143b4;
+  --border: #e2e5ea;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1014;
+    --surface: #181b21;
+    --text: #f2f4f7;
+    --muted: #99a2b0;
+    --accent: #6ea8ff;
+    --border: #2a2f39;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+h1 { font-size: 30px; line-height: 1.2; letter-spacing: -0.5px; margin: 8px 0 4px; }
+h2 { font-size: 20px; margin: 34px 0 10px; letter-spacing: -0.2px; }
+h3 { font-size: 16px; margin: 22px 0 6px; }
+p, li { color: var(--text); }
+a { color: var(--accent); }
+.back { display: inline-block; font-size: 14px; margin-bottom: 12px; text-decoration: none; }
+.updated { color: var(--muted); font-size: 14px; margin-top: 0; }
+.small { font-size: 13px; color: var(--muted); }
+.highlight {
+  background: var(--surface);
+  border-left: 3px solid var(--accent);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 22px 0;
+}
+.highlight p { margin: 0; }
+table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .4px; }
+ul { padding-left: 20px; }
+li { margin: 5px 0; }
+footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+footer p { margin: 4px 0; }
+.card { background: var(--surface); border-radius: 12px; padding: 16px 18px; margin: 14px 0; }
+.card h3 { margin-top: 0; }
