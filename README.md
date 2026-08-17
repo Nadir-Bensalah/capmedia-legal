@@ -25,5 +25,16 @@ Support           /amiens-bus-velam/support
 
 ## Mise en ligne
 
-GitHub Pages sur la branche `main`, dossier racine. Un domaine personnalisé
-`capmedia.app` se règle dans Settings → Pages, avec le fichier `CNAME`.
+GitHub Pages sur la branche `master`, dossier racine.
+
+**Le domaine racine n'est volontairement pas revendiqué.** Poser un fichier
+`CNAME` avec `capmedia.app` ferait servir CE dépôt à la racine du domaine, et
+remplacerait un site existant. Deux options propres :
+
+- **sous-domaine** : `legal.capmedia.app`, avec un enregistrement CNAME DNS vers
+  `nadir-bensalah.github.io`, puis un fichier `CNAME` contenant ce sous-domaine ;
+- **site existant** : recopier le dossier `amiens-bus-velam/` dans le site
+  capmedia.app, et garder ce dépôt comme source.
+
+Tant que rien n'est décidé, les pages sont servies à l'adresse par défaut, et
+c'est celle qui est renseignée dans l'application.
