@@ -1,10 +1,10 @@
 {
   "format": 1,
-  "sha256": "2657cc3418e70956a3b317e8a097ec2a75cd8eba07d6134ab9c0ffabc7c6e3d2",
-  "sourceSha256": "60084bdea4889e7f72daa0811181dc1665f579ac73faa8cb6d1747cc6cc46004",
-  "size": 1581056,
-  "validFrom": "20260715",
-  "validUntil": "20270112",
-  "builtAt": 1787160171,
-  "trips": 9730
+  "sha256": "bcdab7dde7f5d30b246668f0ee35963773a9d3491d16b2da3fe12bf62e832a11",
+  "sourceSha256": "b03244c717b740a2a2916d848c662ca1c0b24d9c5e05b652b165c7fe1d26c53d",
+  "size": 1216512,
+  "validFrom": "20260913",
+  "validUntil": "20270313",
+  "builtAt": 1791198644,
+  "trips": 7172
 }
